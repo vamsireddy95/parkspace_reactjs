@@ -1,38 +1,513 @@
-.App {
+.park_space{
+  position: absolute;
+  width: 272px;
+  height: 63px;
+  left: 547px;
+  top: 113px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 63px;
+ color: #1E969C;
+}
+.email{
+  position: absolute;
+  width: 430px;
+  height: 40px;
+  left: 468px;
+  top:336px;
+  background: #F4F4F4;
+  border: 1px solid #1E969C;
+  box-sizing: border-box;
+}
+.cardNumber {
+  position: absolute;
+  width: 430px;
+  height: 40px;
+  left: 468px;
+  top:286px;
+  background: #F4F4F4;
+  border: 1px solid #1E969C;
+  box-sizing: border-box;
+}
+.password {
+  position: absolute;
+  width: 430px;
+  height: 40px;
+  left: 468px;
+  top: 400px;
+  background: #F4F4F4;
+  border: 1px solid #1E969C;
+  box-sizing: border-box;
+}
+
+.submit{
+  position: absolute;
+  width: 430px;
+  height: 40px;
+  left: 468px;
+  top: 450px;
+  background: #1E969C;
+  color: #FFFFFF;
+}
+.account{
+  position: absolute;
+  width: 195px;
+  height: 16px;
+  left: 586px;
+  top: 480px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #A1A1A1;
+}
+.sign_up{
+  position: absolute;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color:red;
+}
+.forgot_password
+{
+  position: absolute;
+  width: 195px;
+  height: 23px;
+  left: 606px;
+  top: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: black;
+}
+
+/* Dashboard css*/
+
+
+.dashboard_main{
+  position: absolute;
+  width: 100%;
+  height: 71px;
+  left: 0px;
+  top: 0px;
+  background: #1E969C;
+}
+
+.dashboard_park{
+    color:#F4F4F4;
+    text-align: center;
+}
+
+.park_name_dropdown{
+  width: 170px;
+  height: 40px;
+  left: 15px;
+  top: 95px;
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.my_location{
+  width: 170px;
+  height: 40px;
+  left: 200px;
+  top: 95px;
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.my_location_space{
+  width: 170px;
+  height: 40px;
+  top: 95px;
+  background: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.dashboard_search{
+  width: 100px;
+  height: 40px;
+  left:380px;
+  top: 95px;      
+  box-sizing: border-box;
+  position: absolute;
+  background: #1E969C;
+  border: 1px solid #D3D3D3;
+  box-sizing: border-box;
+  color:#F4F4F4;
+}
+
+#map {
+  position: absolute;
+  top: 250px;  
+  height: 600px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+.my_location_{
+  width: 320px;   
+ height: 40px;
+ top: 95px;
+ background: #FFFFFF;
+ border: 1px solid #D3D3D3;
+ box-sizing: border-box;
+ position: absolute;
+ border: 1px solid #1E969C;
+}
+
+#payment_type{
+  position: absolute;
+  width: 513px;
+  height: 157px;
+  left: 426px;
+  top: 295px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#text_center{
   text-align: center;
+  margin: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.telliskivi{
+  position: absolute;
+  width: 55px;
+  height: 16px;
+  left: 15px;
+  top: 169px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.km{
+  position: absolute;
+width: 50px;
+height: 16px;
+left: 80px;
+top: 169px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+font-weight: bold;
+}
+.directions{
+ position: absolute;
+  width: 63px;
+  height: 16px;
+  left: 282px;
+  top: 169px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #1E969C;
+
+}
+.available{
+position: absolute;
+width: 157px;
+height: 15px;
+left: 15px;
+top: 194px;
+font-family: Roboto;
+font-style: normal;
+font-weight: n ormal;
+font-size: 13px;
+line-height: 15px; 
+color: #707070;
+}
+.per_hour{
+position: absolute;
+width: 79px;
+height: 16px;
+left: 266px;
+top: 193px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #2D2D2D;
+}
+.hr{
+position: absolute;
+width: 330px;
+height: 0px;
+left: 15px;
+top: 224px;
+
+border: 1px solid #DBDBDB;
+}
+.available_1{
+position: absolute;
+width: 157px;
+height: 15px;
+left: 15px;
+top: 263px;
+font-family: Roboto;
+font-style: normal;
+font-weight: n ormal;
+font-size: 13px;
+line-height: 15px; 
+color: #707070;
+}
+.per_hour_1{
+position: absolute;
+width: 79px;
+height: 16px;
+left: 266px;
+top: 193px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #2D2D2D;
+}
+.hr_1{
+position: absolute;
+width: 330px;
+height: 0px;
+left: 15px;
+top: 235px;
+
+border: 1px solid #DBDBDB;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.telliskivi_1{
+position: absolute;
+width: 55px;
+height: 16px;
+left: 15px;
+top: 235px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+}
+.km_1{
+position: absolute;
+width: 55px;
+height: 16px;
+left: 82px;
+top: 239px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
 }
 
-.App-link {
-  color: #61dafb;
+.directions_1{
+position: absolute;
+ width: 63px;
+ height: 16px;
+ left: 282px;
+ top: 239px;
+ font-family: Roboto;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 14px;
+ line-height: 16px;
+ color: #1E969C;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.per_hour_1{
+position: absolute;
+width: 79px;
+height: 16px;
+left: 266px;
+top: 265px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #2D2D2D;
 }
+
+.time_{
+
+position: absolute;
+width: 35px;
+height: 16px;
+left: 1003px;
+top: 293px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+}
+.book{
+position: absolute;
+width: 105px;
+height: 16px;
+left: 13px;
+top: 284px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+}
+
+#map_1 {
+position: absolute;
+top: 438px;  
+height: 600px;
+/* The height is 400 pixels */
+width: 100%;
+/* The width is the width of the web page */
+}
+
+.start_time{
+position: absolute;
+width: 72px;
+height: 16px;
+left: 12px;
+top: 308px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #7B7B7B;
+
+
+}
+
+.time{
+position: absolute;
+width: 35px;
+height: 16px;
+left: 278px;
+top: 309px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+
+}
+
+.duration{
+position: absolute;
+width: 100%;
+height: 16px;
+left: 12px;
+top: 330px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #7B7B7B;
+
+}
+.duration_hour{
+position: absolute;
+width: 100%;
+height: 16px;
+left: 278px;
+top: 331px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+
+}
+
+.amount{
+position: absolute;
+width: 53px;
+height: 16px;
+left: 14px;
+top: 353px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #7B7B7B;
+}
+
+.currency{
+
+position: absolute;
+width: 36px;
+height: 16px;
+left: 278px;
+top: 355px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #000000;
+}
+
+.submit{
+position: absolute;
+width: 131px;
+height: 40px;
+left: 50px;
+top: 381px;
+
+background: #1E969C;
+}  
+
+.submitt {
+position: absolute;
+width: 131px;
+height: 40px;
+left: 595px;
+top: 451px;
+background: #1E969C;
+}  
